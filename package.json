@@ -1,0 +1,20 @@
+{
+  "name": "pgp-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src\\main.js",
+  "scripts": {
+    "start": "node src\\main.js",
+    "test": "./node_modules/.bin/mocha 'tests/*.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ipfs": "^0.39.0",
+    "keypair": "^1.0.1",
+    "openpgp": "^4.7.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
+}
