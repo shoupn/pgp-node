@@ -5,4 +5,4 @@ generateKeyPair = function (){
     return pair;
 };
 
-exports.generateKeyPair = generateKeyPair;
+module.exports.generateKeyPair = generateKeyPair;
